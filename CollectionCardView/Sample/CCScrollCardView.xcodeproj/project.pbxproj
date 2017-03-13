@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C31EAD01E7633D50005AA20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C31EACF1E7633D50005AA20 /* main.m */; };
+		8C31EAD31E7633D50005AA20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C31EAD21E7633D50005AA20 /* AppDelegate.m */; };
+		8C31EAD61E7633D50005AA20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C31EAD51E7633D50005AA20 /* ViewController.m */; };
+		8C31EAD91E7633D50005AA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C31EAD71E7633D50005AA20 /* Main.storyboard */; };
+		8C31EADB1E7633D50005AA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C31EADA1E7633D50005AA20 /* Assets.xcassets */; };
+		8C31EADE1E7633D50005AA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C31EADC1E7633D50005AA20 /* LaunchScreen.storyboard */; };
+		8C31EAF61E764A080005AA20 /* CollectionCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C31EAF51E764A080005AA20 /* CollectionCardView.m */; };
+		8C31EAFA1E764AA20005AA20 /* CollectionCardViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C31EAF81E764AA20005AA20 /* CollectionCardViewCell.m */; };
+		8C31EAFE1E764B590005AA20 /* CollectionCardViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C31EAFD1E764B590005AA20 /* CollectionCardViewLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C31EACB1E7633D50005AA20 /* CCScrollCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCScrollCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C31EACF1E7633D50005AA20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C31EAD11E7633D50005AA20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C31EAD21E7633D50005AA20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C31EAD41E7633D50005AA20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C31EAD51E7633D50005AA20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C31EAD81E7633D50005AA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C31EADA1E7633D50005AA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C31EADD1E7633D50005AA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C31EADF1E7633D50005AA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C31EAF41E764A080005AA20 /* CollectionCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCardView.h; sourceTree = "<group>"; };
+		8C31EAF51E764A080005AA20 /* CollectionCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCardView.m; sourceTree = "<group>"; };
+		8C31EAF71E764AA20005AA20 /* CollectionCardViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCardViewCell.h; sourceTree = "<group>"; };
+		8C31EAF81E764AA20005AA20 /* CollectionCardViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCardViewCell.m; sourceTree = "<group>"; };
+		8C31EAFC1E764B590005AA20 /* CollectionCardViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCardViewLayout.h; sourceTree = "<group>"; };
+		8C31EAFD1E764B590005AA20 /* CollectionCardViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCardViewLayout.m; sourceTree = "<group>"; };
+		8C31EAFF1E766B7E0005AA20 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C31EAC81E7633D50005AA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C31EAC21E7633D50005AA20 = {
+			isa = PBXGroup;
+			children = (
+				8C31EACD1E7633D50005AA20 /* CCScrollCardView */,
+				8C31EACC1E7633D50005AA20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C31EACC1E7633D50005AA20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C31EACB1E7633D50005AA20 /* CCScrollCardView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C31EACD1E7633D50005AA20 /* CCScrollCardView */ = {
+			isa = PBXGroup;
+			children = (
+				8C31EAF21E7649B60005AA20 /* CollectionCardView */,
+				8C31EAD11E7633D50005AA20 /* AppDelegate.h */,
+				8C31EAD21E7633D50005AA20 /* AppDelegate.m */,
+				8C31EAD41E7633D50005AA20 /* ViewController.h */,
+				8C31EAD51E7633D50005AA20 /* ViewController.m */,
+				8C31EAD71E7633D50005AA20 /* Main.storyboard */,
+				8C31EADA1E7633D50005AA20 /* Assets.xcassets */,
+				8C31EADC1E7633D50005AA20 /* LaunchScreen.storyboard */,
+				8C31EADF1E7633D50005AA20 /* Info.plist */,
+				8C31EACE1E7633D50005AA20 /* Supporting Files */,
+			);
+			path = CCScrollCardView;
+			sourceTree = "<group>";
+		};
+		8C31EACE1E7633D50005AA20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C31EACF1E7633D50005AA20 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C31EAF21E7649B60005AA20 /* CollectionCardView */ = {
+			isa = PBXGroup;
+			children = (
+				8C31EAFF1E766B7E0005AA20 /* Header.h */,
+				8C31EAF41E764A080005AA20 /* CollectionCardView.h */,
+				8C31EAF51E764A080005AA20 /* CollectionCardView.m */,
+				8C31EAF71E764AA20005AA20 /* CollectionCardViewCell.h */,
+				8C31EAF81E764AA20005AA20 /* CollectionCardViewCell.m */,
+				8C31EAFC1E764B590005AA20 /* CollectionCardViewLayout.h */,
+				8C31EAFD1E764B590005AA20 /* CollectionCardViewLayout.m */,
+			);
+			path = CollectionCardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C31EACA1E7633D50005AA20 /* CCScrollCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C31EAE21E7633D50005AA20 /* Build configuration list for PBXNativeTarget "CCScrollCardView" */;
+			buildPhases = (
+				8C31EAC71E7633D50005AA20 /* Sources */,
+				8C31EAC81E7633D50005AA20 /* Frameworks */,
+				8C31EAC91E7633D50005AA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCScrollCardView;
+			productName = CCScrollCardView;
+			productReference = 8C31EACB1E7633D50005AA20 /* CCScrollCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C31EAC31E7633D50005AA20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ChinaChong;
+				TargetAttributes = {
+					8C31EACA1E7633D50005AA20 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8C31EAC61E7633D50005AA20 /* Build configuration list for PBXProject "CCScrollCardView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C31EAC21E7633D50005AA20;
+			productRefGroup = 8C31EACC1E7633D50005AA20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C31EACA1E7633D50005AA20 /* CCScrollCardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C31EAC91E7633D50005AA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C31EADE1E7633D50005AA20 /* LaunchScreen.storyboard in Resources */,
+				8C31EADB1E7633D50005AA20 /* Assets.xcassets in Resources */,
+				8C31EAD91E7633D50005AA20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C31EAC71E7633D50005AA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C31EAD61E7633D50005AA20 /* ViewController.m in Sources */,
+				8C31EAD31E7633D50005AA20 /* AppDelegate.m in Sources */,
+				8C31EAFE1E764B590005AA20 /* CollectionCardViewLayout.m in Sources */,
+				8C31EAFA1E764AA20005AA20 /* CollectionCardViewCell.m in Sources */,
+				8C31EAD01E7633D50005AA20 /* main.m in Sources */,
+				8C31EAF61E764A080005AA20 /* CollectionCardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C31EAD71E7633D50005AA20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C31EAD81E7633D50005AA20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C31EADC1E7633D50005AA20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C31EADD1E7633D50005AA20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C31EAE01E7633D50005AA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C31EAE11E7633D50005AA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C31EAE31E7633D50005AA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCScrollCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaChong.CCScrollCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C31EAE41E7633D50005AA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCScrollCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaChong.CCScrollCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C31EAC61E7633D50005AA20 /* Build configuration list for PBXProject "CCScrollCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C31EAE01E7633D50005AA20 /* Debug */,
+				8C31EAE11E7633D50005AA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C31EAE21E7633D50005AA20 /* Build configuration list for PBXNativeTarget "CCScrollCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C31EAE31E7633D50005AA20 /* Debug */,
+				8C31EAE41E7633D50005AA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C31EAC31E7633D50005AA20 /* Project object */;
+}
